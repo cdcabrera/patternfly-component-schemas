@@ -1,25 +1,38 @@
 // PatternFly Component Schemas - MCP Optimized
-// Generated on: 2025-10-08T01:18:44.021Z
+// Generated on: 2025-10-08T07:24:29.279Z
 
-// Load lightweight metadata and monolithic schemas
+// Load metadata
 const { default: index } = await import('./schemas/index.json', { with: { type: 'json' } });
-const { default: schemas } = await import('./schemas/schemas.json', { with: { type: 'json' } });
+
+// Cache for loaded schemas
+let schemas = null;
 
 // Export lightweight data
-export { index, schemas };
+export { index };
 export const componentNames = Object.keys(index.components);
 export const componentCount = index.totalComponents;
 export const schemaVersion = index.version;
 
-// Direct schema access (no lazy loading needed - all schemas in memory)
-export function getComponentSchema(name) {
-  if (!schemas[name]) {
+// Get all schemas on-demand
+export async function getAllSchemas() {
+  if (!schemas) {
+    const { default: loadedSchemas } = await import('./schemas/schemas.json', { with: { type: 'json' } });
+    schemas = loadedSchemas;
+  }
+  return schemas;
+}
+
+// Lazy-loaded schema access
+export async function getComponentSchema(name) {
+  if (!index.components[name]) {
     throw new Error(`Component '${name}' not found`);
   }
+  
+  const schemas = await getAllSchemas();
   return schemas[name];
 }
 
-// Fast operations using in-memory data
+// Fast operations using in-memory metadata
 export function getComponentNames(filter = 'all') {
   const allComponents = Object.keys(index.components);
 
@@ -57,11 +70,6 @@ export function getComponentStats() {
     componentsWithRequiredProps: index.componentsWithRequiredProps,
     complexComponents: index.complexComponents
   };
-}
-
-// Get all schemas as a single object (for backward compatibility)
-export function getAllSchemas() {
-  return schemas;
 }
 
 // Default export

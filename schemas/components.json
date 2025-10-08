@@ -7,7 +7,20 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "KeyboardHandlerProps",
+    "description": "",
+    "propsCount": 13,
+    "requiredProps": [
+      "containerRef",
+      "createNavigableElements"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "SampleDataRow",
@@ -37,6 +50,16 @@
     "isComplex": false
   },
   {
+    "name": "DashboardWrapperProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DashboardHeader",
     "description": "",
     "propsCount": 0,
@@ -47,7 +70,27 @@
     "isComplex": false
   },
   {
+    "name": "DashboardHeaderProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "SplitItem",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "SplitItemProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -67,7 +110,27 @@
     "isComplex": false
   },
   {
+    "name": "SplitProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "StackItem",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "StackItemProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -87,7 +150,27 @@
     "isComplex": false
   },
   {
+    "name": "StackProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "LevelItem",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "LevelItemProps",
     "description": "",
     "propsCount": 1,
     "requiredProps": [],
@@ -107,6 +190,16 @@
     "isComplex": false
   },
   {
+    "name": "LevelProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "FlexItem",
     "description": "",
     "propsCount": 11,
@@ -114,7 +207,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "FlexItemProps",
+    "description": "",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "Flex",
@@ -127,7 +230,27 @@
     "isComplex": true
   },
   {
+    "name": "FlexProps",
+    "description": "",
+    "propsCount": 21,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "GridItem",
+    "description": "",
+    "propsCount": 22,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "GridItemProps",
     "description": "",
     "propsCount": 22,
     "requiredProps": [],
@@ -154,7 +277,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "GridProps",
+    "description": "",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "gridItemSpanValueShape",
@@ -177,7 +310,27 @@
     "isComplex": false
   },
   {
+    "name": "GalleryItemProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "Gallery",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "GalleryProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [],
@@ -197,6 +350,16 @@
     "isComplex": false
   },
   {
+    "name": "BullseyeProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Popper",
     "description": "",
     "propsCount": 18,
@@ -207,7 +370,29 @@
     "isComplex": true
   },
   {
+    "name": "PopperProps",
+    "description": "",
+    "propsCount": 37,
+    "requiredProps": [
+      "popper"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "FocusTrap",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "FocusTrapProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -252,6 +437,16 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "WizardFooterButtonProps",
+    "description": "Type for customizing a button (next, back or cancel) in a Wizard footer. It omits some props which either have a default value or are passed directly via WizardFooterProps.",
+    "propsCount": 0,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
     "isComplex": false
   },
   {
@@ -337,7 +532,22 @@
     "requiredPropsCount": 4,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "WizardToggleProps",
+    "description": "Used to toggle between step content, including the body and footer. This is also where the navigation and its expandability is controlled.",
+    "propsCount": 7,
+    "requiredProps": [
+      "activeStep",
+      "footer",
+      "nav",
+      "steps"
+    ],
+    "requiredPropsCount": 4,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "WizardStep",
@@ -350,12 +560,37 @@
     "requiredPropsCount": 2,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "WizardStepProps",
+    "description": "The primary child component for Wizard. Step props are used for the list of steps managed in context.",
+    "propsCount": 11,
+    "requiredProps": [
+      "id",
+      "name"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "WizardNavItem",
     "description": "",
     "propsCount": 16,
+    "requiredProps": [
+      "stepIndex"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "WizardNavItemProps",
+    "description": "",
+    "propsCount": 14,
     "requiredProps": [
       "stepIndex"
     ],
@@ -379,9 +614,33 @@
     "isComplex": false
   },
   {
+    "name": "WizardNavInternalProps",
+    "description": "Hosts default wizard navigation logic by utilizing the wizard's context and WizardNav/WizardNavItem.\nThis component is not exposed to consumers.",
+    "propsCount": 3,
+    "requiredProps": [
+      "isNavExpanded",
+      "nav",
+      "navAriaLabel"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "WizardNav",
     "description": "",
     "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "WizardNavProps",
+    "description": "",
+    "propsCount": 5,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -398,6 +657,45 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "WizardHeaderProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [
+      "title"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "WizardFooterProps",
+    "description": "Hosts the standard structure of a footer with ties to the active step so that text for buttons can vary from step to step.",
+    "propsCount": 15,
+    "requiredProps": [
+      "activeStep",
+      "onBack",
+      "onClose",
+      "onNext"
+    ],
+    "requiredPropsCount": 4,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "WizardFooterWrapperProps",
+    "description": "Applies default wizard footer styling any number of child elements.",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
     "isComplex": false
   },
   {
@@ -411,9 +709,68 @@
     "isComplex": false
   },
   {
+    "name": "WizardContextProps",
+    "description": "",
+    "propsCount": 14,
+    "requiredProps": [
+      "activeStep",
+      "close",
+      "footer",
+      "getStep",
+      "goToNextStep",
+      "goToPrevStep",
+      "goToStepById",
+      "goToStepByIndex",
+      "goToStepByName",
+      "mainWrapperRef",
+      "setFooter",
+      "setStep",
+      "shouldFocusContent",
+      "steps"
+    ],
+    "requiredPropsCount": 14,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "WizardContextProviderProps",
+    "description": "",
+    "propsCount": 12,
+    "requiredProps": [
+      "activeStepIndex",
+      "children",
+      "footer",
+      "goToStepById",
+      "goToStepByIndex",
+      "goToStepByName",
+      "mainWrapperRef",
+      "onBack",
+      "onNext",
+      "shouldFocusContent",
+      "steps"
+    ],
+    "requiredPropsCount": 11,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "WizardBody",
     "description": "Used as a wrapper for WizardStep content, where the wrapping element is customizable.",
     "propsCount": 6,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "WizardBodyProps",
+    "description": "Used as a wrapper for WizardStep content, where the wrapping element is customizable.",
+    "propsCount": 5,
     "requiredProps": [
       "children"
     ],
@@ -432,12 +789,36 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "WizardProps",
+    "description": "Wrapper for all steps and hosts state, including navigation helpers, within context.\nThe WizardContext provided by default gives any child of wizard access to those resources.",
+    "propsCount": 15,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "Truncate",
     "description": "",
     "propsCount": 5,
+    "requiredProps": [
+      "content"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "TruncateProps",
+    "description": "",
+    "propsCount": 6,
     "requiredProps": [
       "content"
     ],
@@ -454,10 +835,32 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "TreeViewSearchProps",
+    "description": "Renders a search input for the tree view. This sub-component should be passed into the\ntree view component's toolbar property.",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "TreeViewRoot",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "TreeViewRootProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [
@@ -482,9 +885,44 @@
     "isComplex": true
   },
   {
+    "name": "TreeViewCheckProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "TreeViewListItemProps",
+    "description": "",
+    "propsCount": 25,
+    "requiredProps": [
+      "name",
+      "title"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
     "name": "TreeViewList",
     "description": "",
     "propsCount": 6,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "TreeViewListProps",
+    "description": "",
+    "propsCount": 5,
     "requiredProps": [
       "children"
     ],
@@ -515,7 +953,19 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "TreeViewProps",
+    "description": "The main tree view component.",
+    "propsCount": 24,
+    "requiredProps": [
+      "data"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ToggleGroupItemElement",
@@ -528,9 +978,9 @@
     "isComplex": false
   },
   {
-    "name": "ToggleGroupItem",
+    "name": "ToggleGroupItemElementProps",
     "description": "",
-    "propsCount": 9,
+    "propsCount": 2,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -538,7 +988,37 @@
     "isComplex": false
   },
   {
+    "name": "ToggleGroupItem",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "ToggleGroupItemProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "ToggleGroup",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ToggleGroupProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [],
@@ -560,7 +1040,29 @@
     "isComplex": false
   },
   {
+    "name": "TooltipContentProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "TooltipArrow",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "TooltipArrowProps",
     "description": "",
     "propsCount": 1,
     "requiredProps": [],
@@ -582,9 +1084,64 @@
     "isComplex": true
   },
   {
+    "name": "TooltipProps",
+    "description": "",
+    "propsCount": 22,
+    "requiredProps": [
+      "content"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarContextProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "isExpanded",
+      "labelGroupContentRef",
+      "numberOfFilters",
+      "toggleIsExpanded",
+      "updateNumberFilters"
+    ],
+    "requiredPropsCount": 5,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarContentContextProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [
+      "expandableContentId",
+      "expandableContentRef",
+      "labelContainerRef"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "ToolbarToggleGroup",
     "description": "",
     "propsCount": 20,
+    "requiredProps": [
+      "breakpoint",
+      "toggleIcon"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarToggleGroupProps",
+    "description": "",
+    "propsCount": 12,
     "requiredProps": [
       "breakpoint",
       "toggleIcon"
@@ -605,7 +1162,20 @@
     "requiredPropsCount": 2,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarLabelGroupContentProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "numberOfFilters",
+      "showClearFiltersButton"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ToolbarItem",
@@ -615,7 +1185,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarItemProps",
+    "description": "",
+    "propsCount": 14,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ToolbarGroup",
@@ -625,7 +1205,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarGroupProps",
+    "description": "",
+    "propsCount": 13,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ToolbarFilter",
@@ -667,6 +1257,19 @@
     "isComplex": false
   },
   {
+    "name": "ToolbarFilterProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "categoryName",
+      "children"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "ToolbarFilterState",
     "description": "",
     "propsCount": 1,
@@ -688,10 +1291,32 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarExpandableContentProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [
+      "showClearFiltersButton"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ToolbarExpandIconWrapper",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ToolbarExpandIconWrapperProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -708,10 +1333,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarContentProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "Toolbar",
+    "description": "",
+    "propsCount": 18,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "ToolbarProps",
     "description": "",
     "propsCount": 18,
     "requiredProps": [],
@@ -760,6 +1405,18 @@
     "isComplex": false
   },
   {
+    "name": "TitleProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "headingLevel"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "Size",
     "description": "",
     "propsCount": 0,
@@ -777,7 +1434,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "TimestampTooltip",
@@ -792,7 +1449,27 @@
     "isComplex": false
   },
   {
+    "name": "TimestampProps",
+    "description": "",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "TimePicker",
+    "description": "",
+    "propsCount": 22,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "TimePickerProps",
     "description": "",
     "propsCount": 22,
     "requiredProps": [],
@@ -831,6 +1508,16 @@
     "isComplex": false
   },
   {
+    "name": "TextInputGroupUtilitiesProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "TextInputGroupMain",
     "description": "",
     "propsCount": 18,
@@ -841,7 +1528,27 @@
     "isComplex": true
   },
   {
+    "name": "TextInputGroupMainProps",
+    "description": "",
+    "propsCount": 17,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "TextInputGroupIcon",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "TextInputGroupIconProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -861,6 +1568,16 @@
     "isComplex": false
   },
   {
+    "name": "TextInputGroupProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "TextInputExpandedObj",
     "description": "",
     "propsCount": 2,
@@ -872,6 +1589,16 @@
     "hasRequiredProps": true,
     "hasVariants": false,
     "isComplex": false
+  },
+  {
+    "name": "TextInputProps",
+    "description": "",
+    "propsCount": 20,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "TextInputState",
@@ -893,7 +1620,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "TextAreaProps",
+    "description": "",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "Tabs",
@@ -916,6 +1653,18 @@
     "hasRequiredProps": false,
     "hasVariants": false,
     "isComplex": false
+  },
+  {
+    "name": "TabsProps",
+    "description": "",
+    "propsCount": 34,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "TabsState",
@@ -971,7 +1720,31 @@
     "isComplex": false
   },
   {
+    "name": "TabTitleTextProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "TabTitleIcon",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "TabTitleIconProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [
@@ -995,9 +1768,33 @@
     "isComplex": false
   },
   {
+    "name": "TabContentBodyProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "TabContent",
     "description": "",
     "propsCount": 9,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "TabContentProps",
+    "description": "",
+    "propsCount": 10,
     "requiredProps": [
       "id"
     ],
@@ -1017,6 +1814,16 @@
     "isComplex": false
   },
   {
+    "name": "TabButtonProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "TabAction",
     "description": "",
     "propsCount": 7,
@@ -1024,10 +1831,33 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "TabActionProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "Tab",
+    "description": "",
+    "propsCount": 17,
+    "requiredProps": [
+      "eventKey",
+      "title"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "TabProps",
     "description": "",
     "propsCount": 17,
     "requiredProps": [
@@ -1050,6 +1880,16 @@
     "isComplex": false
   },
   {
+    "name": "OverflowTabProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Switch",
     "description": "",
     "propsCount": 13,
@@ -1057,7 +1897,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "SwitchProps",
+    "description": "",
+    "propsCount": 12,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "Spinner",
@@ -1070,7 +1920,29 @@
     "isComplex": false
   },
   {
+    "name": "SpinnerProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "SkipToContent",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "href"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "SkipToContentProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [
@@ -1092,7 +1964,27 @@
     "isComplex": false
   },
   {
+    "name": "SkeletonProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "SliderStep",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "SliderStepProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [],
@@ -1125,6 +2017,16 @@
     "isComplex": false
   },
   {
+    "name": "SliderProps",
+    "description": "The main slider component.",
+    "propsCount": 23,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "SliderOnChangeEvent",
     "description": "",
     "propsCount": 0,
@@ -1142,10 +2044,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "SimpleListItemProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "SimpleListGroup",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "SimpleListGroupProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [],
@@ -1162,7 +2084,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "SimpleListProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "SimpleListState",
@@ -1177,7 +2109,33 @@
     "isComplex": false
   },
   {
+    "name": "SimpleListContextProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "currentRef",
+      "isControlled",
+      "updateCurrentRef"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "SidebarPanel",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "SidebarPanelProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [
@@ -1201,7 +2159,29 @@
     "isComplex": false
   },
   {
+    "name": "SidebarContentProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "Sidebar",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "SidebarProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [],
@@ -1245,7 +2225,27 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "SearchInputProps",
+    "description": "The main search input component.",
+    "propsCount": 33,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "AdvancedSearchMenuProps",
+    "description": "",
+    "propsCount": 16,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "SelectOption",
@@ -1256,6 +2256,16 @@
     "hasRequiredProps": false,
     "hasVariants": false,
     "isComplex": false
+  },
+  {
+    "name": "SelectOptionProps",
+    "description": "See the MenuItem section of the Menu documentation for additional props that may be passed.",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "SelectList",
@@ -1270,7 +2280,31 @@
     "isComplex": false
   },
   {
+    "name": "SelectListProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "SelectGroup",
+    "description": "See the MenuGroup section of the Menu documentation for additional props that may be passed.",
+    "propsCount": 3,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "SelectGroupProps",
     "description": "See the MenuGroup section of the Menu documentation for additional props that may be passed.",
     "propsCount": 3,
     "requiredProps": [
@@ -1294,7 +2328,54 @@
     "isComplex": true
   },
   {
+    "name": "SelectPopperProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "SelectToggleProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "toggleNode"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "SelectProps",
+    "description": "See the Menu documentation for additional props that may be passed.",
+    "propsCount": 22,
+    "requiredProps": [
+      "toggle"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "Radio",
+    "description": "",
+    "propsCount": 18,
+    "requiredProps": [
+      "id",
+      "name"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "RadioProps",
     "description": "",
     "propsCount": 18,
     "requiredProps": [
@@ -1317,6 +2398,16 @@
     "isComplex": false
   },
   {
+    "name": "ProgressStepperProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "ProgressStep",
     "description": "",
     "propsCount": 9,
@@ -1324,7 +2415,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ProgressStepProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ProgressHelperText",
@@ -1337,7 +2438,30 @@
     "isComplex": false
   },
   {
+    "name": "ProgressHelperTextProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "ProgressContainer",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "parentId",
+      "value"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "ProgressContainerProps",
     "description": "",
     "propsCount": 10,
     "requiredProps": [
@@ -1362,6 +2486,28 @@
     "isComplex": false
   },
   {
+    "name": "AriaProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ProgressBarProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "value"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Progress",
     "description": "",
     "propsCount": 16,
@@ -1372,7 +2518,30 @@
     "isComplex": true
   },
   {
+    "name": "ProgressProps",
+    "description": "",
+    "propsCount": 15,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "PopoverHeaderText",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children",
+      "headingLevel"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "PopoverHeaderTextProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [
@@ -1397,7 +2566,31 @@
     "isComplex": false
   },
   {
+    "name": "PopoverHeaderIconProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "PopoverHeader",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "PopoverHeaderProps",
     "description": "",
     "propsCount": 7,
     "requiredProps": [
@@ -1421,6 +2614,18 @@
     "isComplex": false
   },
   {
+    "name": "PopoverFooterProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "PopoverDialog",
     "description": "",
     "propsCount": 3,
@@ -1431,7 +2636,41 @@
     "isComplex": false
   },
   {
+    "name": "PopoverDialogProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "PopoverContextProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "PopoverContent",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "PopoverContentProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [
@@ -1452,10 +2691,35 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "PopoverCloseButtonProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "Unknown"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "PopoverBody",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children",
+      "id"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "PopoverBodyProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [
@@ -1478,7 +2742,29 @@
     "isComplex": false
   },
   {
+    "name": "PopoverArrowProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Popover",
+    "description": "The main popover component. The following properties can also be passed into another component\nthat has a property specifically for passing in popover properties.",
+    "propsCount": 37,
+    "requiredProps": [
+      "bodyContent"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "PopoverProps",
     "description": "The main popover component. The following properties can also be passed into another component\nthat has a property specifically for passing in popover properties.",
     "propsCount": 37,
     "requiredProps": [
@@ -1500,7 +2786,29 @@
     "isComplex": false
   },
   {
+    "name": "PaginationToggleTemplateProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "PaginationOptionsMenu",
+    "description": "",
+    "propsCount": 24,
+    "requiredProps": [
+      "toggleTemplate"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "PaginationOptionsMenuProps",
     "description": "",
     "propsCount": 24,
     "requiredProps": [
@@ -1522,6 +2830,19 @@
     "requiredPropsCount": 2,
     "hasRequiredProps": true,
     "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "PaginationNavigationProps",
+    "description": "",
+    "propsCount": 23,
+    "requiredProps": [
+      "onSetPage",
+      "page"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
     "isComplex": true
   },
   {
@@ -1562,7 +2883,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "PaginationProps",
+    "description": "The main pagination component.",
+    "propsCount": 32,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "OnSetPage",
@@ -1595,7 +2926,27 @@
     "isComplex": false
   },
   {
+    "name": "OverflowMenuItemProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "OverflowMenuGroup",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "OverflowMenuGroupProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -1615,7 +2966,27 @@
     "isComplex": false
   },
   {
+    "name": "OverflowMenuDropdownItemProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "OverflowMenuControl",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "OverflowMenuControlProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -1635,6 +3006,16 @@
     "isComplex": false
   },
   {
+    "name": "OverflowMenuContentProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "OverflowMenu",
     "description": "",
     "propsCount": 4,
@@ -1644,7 +3025,19 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "OverflowMenuProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "breakpoint"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "OverflowMenuState",
@@ -1670,7 +3063,27 @@
     "isComplex": true
   },
   {
+    "name": "PageToggleButtonProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
     "name": "PageSidebarBody",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "PageSidebarBodyProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [],
@@ -1690,6 +3103,28 @@
     "isComplex": false
   },
   {
+    "name": "PageSidebarProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "PageSidebarContextProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [
+      "isSidebarOpen"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "PageSection",
     "description": "",
     "propsCount": 15,
@@ -1697,7 +3132,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "PageSectionProps",
+    "description": "",
+    "propsCount": 15,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "PageGroup",
@@ -1710,7 +3155,45 @@
     "isComplex": false
   },
   {
+    "name": "PageGroupProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "PageContextProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [
+      "getBreakpoint",
+      "getVerticalBreakpoint",
+      "height",
+      "isManagedSidebar",
+      "isSidebarOpen",
+      "onSidebarToggle",
+      "width"
+    ],
+    "requiredPropsCount": 7,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "PageBreadcrumb",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "PageBreadcrumbProps",
     "description": "",
     "propsCount": 9,
     "requiredProps": [],
@@ -1730,7 +3213,27 @@
     "isComplex": false
   },
   {
+    "name": "PageBodyProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Page",
+    "description": "",
+    "propsCount": 32,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "PageProps",
     "description": "",
     "propsCount": 32,
     "requiredProps": [],
@@ -1766,7 +3269,27 @@
     "isComplex": false
   },
   {
+    "name": "PanelMainBodyProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "PanelMain",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "PanelMainProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -1786,7 +3309,27 @@
     "isComplex": false
   },
   {
+    "name": "PanelHeaderProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "PanelFooter",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "PanelFooterProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -1806,7 +3349,27 @@
     "isComplex": false
   },
   {
+    "name": "PanelProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "NavList",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "NavListProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -1836,7 +3399,27 @@
     "isComplex": true
   },
   {
+    "name": "NavItemProps",
+    "description": "",
+    "propsCount": 16,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "NavGroup",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "NavGroupProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -1855,7 +3438,19 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "NavExpandableProps",
+    "description": "",
+    "propsCount": 11,
+    "requiredProps": [
+      "title"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "NavExpandableState",
@@ -1878,7 +3473,27 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "NavProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "NavContextProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "NavSelectClickHandler",
@@ -1892,6 +3507,16 @@
   },
   {
     "name": "NumberInput",
+    "description": "",
+    "propsCount": 20,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "NumberInputProps",
     "description": "",
     "propsCount": 20,
     "requiredProps": [],
@@ -1918,10 +3543,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "NotificationBadgeProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "MultipleFileUploadTitleTextSeparator",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MultipleFileUploadTitleTextSeparatorProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -1941,7 +3586,27 @@
     "isComplex": false
   },
   {
+    "name": "MultipleFileUploadTitleTextProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MultipleFileUploadTitleIcon",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MultipleFileUploadTitleIconProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -1961,7 +3626,27 @@
     "isComplex": false
   },
   {
+    "name": "MultipleFileUploadTitleProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MultipleFileUploadStatusItem",
+    "description": "Automatically reads an uploaded file to render a visual representation of it, including\nits name, size, and read status. This sub-component also allows custom reading of files\nvia various callbacks which will override the automatic reading behavior.",
+    "propsCount": 19,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "MultipleFileUploadStatusItemProps",
     "description": "Automatically reads an uploaded file to render a visual representation of it, including\nits name, size, and read status. This sub-component also allows custom reading of files\nvia various callbacks which will override the automatic reading behavior.",
     "propsCount": 19,
     "requiredProps": [],
@@ -1981,7 +3666,27 @@
     "isComplex": false
   },
   {
+    "name": "MultipleFileUploadStatusProps",
+    "description": "Acts as an expandable container for all uploaded file statuses.\nAn optional text and/or icon can also be passed into this sub-component.\nThis sub-component can be conditionally rendered when at least 1 file has been\nattempted to be uploaded.",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "MultipleFileUploadMain",
+    "description": "Creates the visual upload interface, including the area to drag and drop files,\nan optional upload button, and descriptive instructions.",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MultipleFileUploadMainProps",
     "description": "Creates the visual upload interface, including the area to drag and drop files,\nan optional upload button, and descriptive instructions.",
     "propsCount": 7,
     "requiredProps": [],
@@ -2001,7 +3706,27 @@
     "isComplex": false
   },
   {
+    "name": "MultipleFileUploadInfoProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MultipleFileUploadButton",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MultipleFileUploadButtonProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -2018,10 +3743,32 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "MultipleFileUploadProps",
+    "description": "Acts as a container for all other MultipleFileUpload sub-components. This sub-component\nalso provides the functionality for file uploads, and access to the uploaded files via\na callback.",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "NotificationDrawerListItemHeader",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "title"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "NotificationDrawerListItemHeaderProps",
     "description": "",
     "propsCount": 10,
     "requiredProps": [
@@ -2043,6 +3790,16 @@
     "isComplex": false
   },
   {
+    "name": "NotificationDrawerListItemBodyProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "NotificationDrawerListItem",
     "description": "",
     "propsCount": 8,
@@ -2050,10 +3807,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "NotificationDrawerListItemProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "NotificationDrawerList",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "NotificationDrawerListProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -2070,10 +3847,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "NotificationDrawerHeaderProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "NotificationDrawerGroupList",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "NotificationDrawerGroupListProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2094,10 +3891,34 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "NotificationDrawerGroupProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "count",
+      "isExpanded",
+      "title"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "NotificationDrawerBody",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "NotificationDrawerBodyProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2117,6 +3938,16 @@
     "isComplex": false
   },
   {
+    "name": "NotificationDrawerProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MenuToggleCheckbox",
     "description": "",
     "propsCount": 10,
@@ -2126,7 +3957,19 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "MenuToggleCheckboxProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "MenuToggleAction",
@@ -2136,12 +3979,32 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "MenuToggleActionProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "MenuToggle",
     "description": "",
     "propsCount": 16,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "MenuToggleProps",
+    "description": "",
+    "propsCount": 17,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -2181,9 +4044,29 @@
     "isComplex": false
   },
   {
+    "name": "MenuSearchInputProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MenuSearch",
     "description": "",
     "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MenuSearchProps",
+    "description": "",
+    "propsCount": 2,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -2201,6 +4084,18 @@
     "isComplex": false
   },
   {
+    "name": "MenuListProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MenuItemAction",
     "description": "",
     "propsCount": 7,
@@ -2210,12 +4105,34 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "MenuItemActionProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [
+      "Unknown"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "MenuItem",
     "description": "",
     "propsCount": 31,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "MenuItemProps",
+    "description": "",
+    "propsCount": 32,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -2233,7 +4150,27 @@
     "isComplex": false
   },
   {
+    "name": "MenuGroupProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "MenuFooter",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MenuFooterProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2250,7 +4187,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "MenuContentProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "MenuContainer",
@@ -2266,7 +4213,33 @@
     "requiredPropsCount": 5,
     "hasRequiredProps": true,
     "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "MenuPopperProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
     "isComplex": false
+  },
+  {
+    "name": "MenuContainerProps",
+    "description": "",
+    "propsCount": 13,
+    "requiredProps": [
+      "isOpen",
+      "menu",
+      "menuRef",
+      "toggle",
+      "toggleRef"
+    ],
+    "requiredPropsCount": 5,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "MenuBreadcrumb",
@@ -2279,9 +4252,29 @@
     "isComplex": false
   },
   {
+    "name": "MenuBreadcrumbProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Menu",
     "description": "",
     "propsCount": 24,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "MenuProps",
+    "description": "",
+    "propsCount": 25,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -2312,10 +4305,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DrilldownMenuProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "MastheadToggle",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MastheadToggleProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2335,7 +4348,27 @@
     "isComplex": false
   },
   {
+    "name": "MastheadMainProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MastheadLogo",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "MastheadLogoProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -2355,7 +4388,27 @@
     "isComplex": false
   },
   {
+    "name": "MastheadContentProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "MastheadBrand",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "MastheadBrandProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2375,6 +4428,16 @@
     "isComplex": false
   },
   {
+    "name": "MastheadProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "ModalHeader",
     "description": "Renders content in the header of the modal",
     "propsCount": 9,
@@ -2385,7 +4448,27 @@
     "isComplex": false
   },
   {
+    "name": "ModalHeaderProps",
+    "description": "Renders content in the header of the modal",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "ModalFooter",
+    "description": "Renders content in the footer of the modal",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ModalFooterProps",
     "description": "Renders content in the footer of the modal",
     "propsCount": 2,
     "requiredProps": [],
@@ -2408,7 +4491,32 @@
     "isComplex": true
   },
   {
+    "name": "ModalContentProps",
+    "description": "",
+    "propsCount": 17,
+    "requiredProps": [
+      "boxId",
+      "children"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "ModalBoxTitle",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [
+      "title"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "ModalBoxTitleProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [
@@ -2430,6 +4538,16 @@
     "isComplex": false
   },
   {
+    "name": "ModalBoxDescriptionProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "ModalBoxCloseButton",
     "description": "",
     "propsCount": 5,
@@ -2437,12 +4555,34 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ModalBoxCloseButtonProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ModalBox",
     "description": "",
     "propsCount": 8,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "ModalBoxProps",
+    "description": "",
+    "propsCount": 6,
     "requiredProps": [
       "children"
     ],
@@ -2462,9 +4602,31 @@
     "isComplex": false
   },
   {
+    "name": "ModalBodyProps",
+    "description": "Renders content in the body of the modal",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Modal",
     "description": "",
     "propsCount": 20,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "ModalProps",
+    "description": "",
+    "propsCount": 18,
     "requiredProps": [
       "children"
     ],
@@ -2495,10 +4657,32 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "LoginPageProps",
+    "description": "",
+    "propsCount": 15,
+    "requiredProps": [
+      "loginTitle"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "LoginMainHeader",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "LoginMainHeaderProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [],
@@ -2518,7 +4702,27 @@
     "isComplex": false
   },
   {
+    "name": "LoginMainFooterLinksItemProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "LoginMainFooterBandItem",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "LoginMainFooterBandItemProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2538,7 +4742,27 @@
     "isComplex": false
   },
   {
+    "name": "LoginMainFooterProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "LoginMainBody",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "LoginMainBodyProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2558,7 +4782,27 @@
     "isComplex": false
   },
   {
+    "name": "LoginHeaderProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "LoginForm",
+    "description": "",
+    "propsCount": 23,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
+    "name": "LoginFormProps",
     "description": "",
     "propsCount": 23,
     "requiredProps": [],
@@ -2578,7 +4822,27 @@
     "isComplex": false
   },
   {
+    "name": "LoginFooterItemProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "LoginFooter",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "LoginFooterProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2598,6 +4862,16 @@
     "isComplex": false
   },
   {
+    "name": "LoginProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "LabelGroup",
     "description": "",
     "propsCount": 18,
@@ -2605,6 +4879,16 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
+    "isComplex": true
+  },
+  {
+    "name": "LabelGroupProps",
+    "description": "",
+    "propsCount": 18,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
     "isComplex": true
   },
   {
@@ -2631,12 +4915,34 @@
     "isComplex": true
   },
   {
+    "name": "LabelProps",
+    "description": "",
+    "propsCount": 22,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "ListItem",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "ListItemProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
     "hasVariants": true,
     "isComplex": false
   },
@@ -2651,7 +4957,29 @@
     "isComplex": false
   },
   {
+    "name": "ListProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "InputGroupText",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "InputGroupTextProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [
@@ -2675,6 +5003,30 @@
     "isComplex": false
   },
   {
+    "name": "InputGroupItemProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "InputGroupProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Icon",
     "description": "",
     "propsCount": 11,
@@ -2682,7 +5034,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "IconComponentProps",
+    "description": "",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "IconSize",
@@ -2705,7 +5067,27 @@
     "isComplex": false
   },
   {
+    "name": "HintTitleProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "HintFooter",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "HintFooterProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2725,7 +5107,27 @@
     "isComplex": false
   },
   {
+    "name": "HintBodyProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Hint",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "HintProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -2745,7 +5147,27 @@
     "isComplex": false
   },
   {
+    "name": "HelperTextItemProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "HelperText",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "HelperTextProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [],
@@ -2765,6 +5187,16 @@
     "isComplex": false
   },
   {
+    "name": "JumpLinksListProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "JumpLinksItem",
     "description": "",
     "propsCount": 6,
@@ -2774,7 +5206,19 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "JumpLinksItemProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "href"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "JumpLinks",
@@ -2784,10 +5228,32 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "JumpLinksProps",
+    "description": "",
+    "propsCount": 15,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "FormSelectOptionGroup",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "label"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "FormSelectOptionGroupProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [
@@ -2811,6 +5277,18 @@
     "isComplex": false
   },
   {
+    "name": "FormSelectOptionProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [
+      "label"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "FormSelect",
     "description": "",
     "propsCount": 12,
@@ -2820,7 +5298,19 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "FormSelectProps",
+    "description": "",
+    "propsCount": 12,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "FormControlIcon",
@@ -2833,7 +5323,29 @@
     "isComplex": false
   },
   {
+    "name": "FormControlIconProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "FileUploadHelperText",
+    "description": "A container for helper text content. This sub-component should be passed as a child to\nthe main file upload or file upload field component.",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "FileUploadHelperTextProps",
     "description": "A container for helper text content. This sub-component should be passed as a child to\nthe main file upload or file upload field component.",
     "propsCount": 2,
     "requiredProps": [
@@ -2857,7 +5369,31 @@
     "isComplex": true
   },
   {
+    "name": "FileUploadFieldProps",
+    "description": "A more customizable file upload component for implementing custom logic. Drag and drop\nfunctionality is not built in by default.",
+    "propsCount": 31,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "FileUpload",
+    "description": "",
+    "propsCount": 29,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "FileUploadProps",
     "description": "",
     "propsCount": 29,
     "requiredProps": [
@@ -2876,10 +5412,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ExpandableSectionToggleProps",
+    "description": "Acts as the toggle sub-component when the main expandable section component has the isDetached\nproperty passed in. Allows for more custom control over the expandable section's toggle.",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ExpandableSection",
+    "description": "The main expandable section component.",
+    "propsCount": 16,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "ExpandableSectionProps",
     "description": "The main expandable section component.",
     "propsCount": 16,
     "requiredProps": [],
@@ -2910,7 +5466,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "InternalFormFieldGroupProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "FormSection",
@@ -2923,7 +5489,27 @@
     "isComplex": false
   },
   {
+    "name": "FormSectionProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "FormHelperText",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "FormHelperTextProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -2945,6 +5531,18 @@
     "isComplex": true
   },
   {
+    "name": "FormGroupLabelHelpProps",
+    "description": "A help button to be passed to the FormGroup's labelHelp property. This should be wrapped or linked\nto our Popover component.",
+    "propsCount": 3,
+    "requiredProps": [
+      "Unknown"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "FormGroup",
     "description": "",
     "propsCount": 11,
@@ -2952,7 +5550,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "FormGroupProps",
+    "description": "",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "FormFieldGroupToggle",
@@ -2965,7 +5573,20 @@
     "requiredPropsCount": 2,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "FormFieldGroupToggleProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [
+      "isExpanded",
+      "onToggle"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "FormFieldGroupHeader",
@@ -2991,7 +5612,27 @@
     "isComplex": false
   },
   {
+    "name": "FormFieldGroupHeaderProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "FormFieldGroupExpandable",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "FormFieldGroupExpandableProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [],
@@ -3011,6 +5652,16 @@
     "isComplex": false
   },
   {
+    "name": "FormFieldGroupProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "FormContextProvider",
     "description": "",
     "propsCount": 0,
@@ -3021,7 +5672,52 @@
     "isComplex": false
   },
   {
+    "name": "FormContextProps",
+    "description": "",
+    "propsCount": 14,
+    "requiredProps": [
+      "errors",
+      "getError",
+      "getValue",
+      "isTouched",
+      "isValid",
+      "setError",
+      "setErrors",
+      "setTouched",
+      "setValidator",
+      "setValue",
+      "setValues",
+      "touched",
+      "validate",
+      "values"
+    ],
+    "requiredPropsCount": 14,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "FormContextProviderProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "FormAlert",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "FormAlertProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -3041,7 +5737,27 @@
     "isComplex": false
   },
   {
+    "name": "FormProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "ActionGroup",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ActionGroupProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -3063,7 +5779,29 @@
     "isComplex": false
   },
   {
+    "name": "EmptyStateIconProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "icon"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "EmptyStateHeader",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "EmptyStateHeaderProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [],
@@ -3083,7 +5821,27 @@
     "isComplex": false
   },
   {
+    "name": "EmptyStateFooterProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "EmptyStateBody",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "EmptyStateBodyProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -3103,7 +5861,27 @@
     "isComplex": false
   },
   {
+    "name": "EmptyStateActionsProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "EmptyState",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "EmptyStateProps",
     "description": "",
     "propsCount": 10,
     "requiredProps": [],
@@ -3123,7 +5901,20 @@
     "requiredPropsCount": 2,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DualListSelectorTreeItemProps",
+    "description": "",
+    "propsCount": 13,
+    "requiredProps": [
+      "id",
+      "text"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "DualListSelectorTree",
@@ -3135,7 +5926,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorTreeItemData",
@@ -3149,7 +5940,19 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DualListSelectorTreeProps",
+    "description": "Used in place of the DualListSelectorListItem sub-component when building a\ncomposable dual list selector with a tree.",
+    "propsCount": 7,
+    "requiredProps": [
+      "data"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "DualListSelectorPane",
@@ -3159,10 +5962,82 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
+    "isComplex": true
+  },
+  {
+    "name": "DualListSelectorPaneProps",
+    "description": "Acts as the container for a list of options that are either available or chosen,\ndepending on the pane type (available or chosen). A search input and other actions,\nsuch as sorting, can also be passed into this sub-component.",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
+    "name": "DualListSelectorListWrapperProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [
+      "Unknown"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "DualListSelectorListItemProps",
+    "description": "Creates an individual option that can be selected and moved between the\ndual list selector panes. This is contained within the DualListSelectorList sub-component.",
+    "propsCount": 10,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "DualListSelectorListProps",
+    "description": "Acts as the container for DualListSelectorListItem sub-components.",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
     "isComplex": false
   },
   {
+    "name": "DualListSelectorControlsWrapperProps",
+    "description": "Acts as the container for the DualListSelectorControl sub-components.",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "DualListSelectorControlProps",
+    "description": "Renders an individual control button for moving selected options between each\ndual list selector pane.",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
     "name": "DualListSelector",
+    "description": "Acts as a container for all other DualListSelector sub-components when using a\ncomposable dual list selector.",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DualListSelectorProps",
     "description": "Acts as a container for all other DualListSelector sub-components when using a\ncomposable dual list selector.",
     "propsCount": 4,
     "requiredProps": [],
@@ -3184,6 +6059,18 @@
     "isComplex": false
   },
   {
+    "name": "DropdownListProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DropdownItem",
     "description": "See the MenuItem section of the Menu documentation for additional props that may be passed.",
     "propsCount": 10,
@@ -3191,12 +6078,34 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DropdownItemProps",
+    "description": "See the MenuItem section of the Menu documentation for additional props that may be passed.",
+    "propsCount": 11,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "DropdownGroup",
     "description": "See the MenuGroup section of the Menu documentation for additional props that may be passed.",
     "propsCount": 4,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DropdownGroupProps",
+    "description": "See the MenuGroup section of the Menu documentation for additional props that may be passed.",
+    "propsCount": 3,
     "requiredProps": [
       "children"
     ],
@@ -3218,7 +6127,51 @@
     "isComplex": true
   },
   {
+    "name": "DropdownPopperProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "DropdownToggleProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "toggleNode"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "DropdownProps",
+    "description": "See the Menu documentation for additional props that may be passed.",
+    "propsCount": 21,
+    "requiredProps": [
+      "toggle"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "DrawerSection",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "DrawerSectionProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -3240,6 +6193,18 @@
     "isComplex": false
   },
   {
+    "name": "DrawerPanelDescriptionProps",
+    "description": "Provides a description within the drawer panel. This should typically follow the drawer head.",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DrawerPanelContent",
     "description": "",
     "propsCount": 14,
@@ -3247,7 +6212,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DrawerPanelFocusTrapObject",
@@ -3260,7 +6225,27 @@
     "isComplex": false
   },
   {
+    "name": "DrawerPanelContentProps",
+    "description": "",
+    "propsCount": 14,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "DrawerPanelBody",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DrawerPanelBodyProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -3280,6 +6265,16 @@
     "isComplex": false
   },
   {
+    "name": "DrawerMainProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DrawerHead",
     "description": "",
     "propsCount": 2,
@@ -3290,7 +6285,27 @@
     "isComplex": false
   },
   {
+    "name": "DrawerHeadProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DrawerContentBody",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DrawerContentBodyProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -3312,6 +6327,18 @@
     "isComplex": false
   },
   {
+    "name": "DrawerContentProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "panelContent"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "DrawerCloseButton",
     "description": "",
     "propsCount": 3,
@@ -3319,10 +6346,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DrawerCloseButtonProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "DrawerActions",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DrawerActionsProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -3339,10 +6386,44 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DrawerProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "DrawerContextProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [
+      "isExpanded",
+      "isInline",
+      "isStatic"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "Divider",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "DividerProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -3372,6 +6453,16 @@
     "isComplex": false
   },
   {
+    "name": "DatePickerProps",
+    "description": "The main date picker component.",
+    "propsCount": 17,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "DatePickerRef",
     "description": "Allows finer control over the calendar's open state when a React ref is passed into the\ndate picker component. Accessed via ref.current[property], e.g. ref.current.toggleCalendar().",
     "propsCount": 3,
@@ -3383,12 +6474,24 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DataListToggle",
     "description": "",
     "propsCount": 8,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DataListToggleProps",
+    "description": "",
+    "propsCount": 6,
     "requiredProps": [
       "id"
     ],
@@ -3405,10 +6508,32 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DataListTextProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "DataListItemRow",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "DataListItemRowProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [
@@ -3430,12 +6555,47 @@
     "isComplex": false
   },
   {
+    "name": "DataListItemCellsProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DataListItem",
     "description": "",
     "propsCount": 6,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DataListItemProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "children",
+      "Unknown"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DataListItemChildProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [
+      "rowid"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
     "hasVariants": false,
     "isComplex": false
   },
@@ -3450,7 +6610,27 @@
     "isComplex": false
   },
   {
+    "name": "DataListDragButtonProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "DataListControl",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DataListControlProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -3472,6 +6652,18 @@
     "isComplex": false
   },
   {
+    "name": "DataListContentProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [
+      "Unknown"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DataListCheck",
     "description": "",
     "propsCount": 10,
@@ -3481,10 +6673,32 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "DataListCheckProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "Unknown"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "DataListCell",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "DataListCellProps",
     "description": "",
     "propsCount": 7,
     "requiredProps": [],
@@ -3509,7 +6723,59 @@
     "isComplex": false
   },
   {
+    "name": "DataListActionProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [
+      "children",
+      "id",
+      "Unknown"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "DataListProps",
+    "description": "",
+    "propsCount": 10,
+    "requiredProps": [
+      "Unknown"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "DataListContextProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "isSelectable",
+      "selectedDataListItemId",
+      "updateSelectedDataListItem"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "DescriptionListTermHelpTextButton",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DescriptionListTermHelpTextButtonProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [
@@ -3533,7 +6799,31 @@
     "isComplex": false
   },
   {
+    "name": "DescriptionListTermHelpTextProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DescriptionListTerm",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DescriptionListTermProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [
@@ -3555,12 +6845,34 @@
     "isComplex": false
   },
   {
+    "name": "DescriptionListGroupProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "DescriptionListDescription",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "DescriptionListDescriptionProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
     "hasVariants": false,
     "isComplex": false
   },
@@ -3572,7 +6884,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "BreakpointModifiers",
@@ -3583,6 +6895,16 @@
     "hasRequiredProps": false,
     "hasVariants": false,
     "isComplex": false
+  },
+  {
+    "name": "DescriptionListProps",
+    "description": "",
+    "propsCount": 15,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ClipboardCopyToggle",
@@ -3597,7 +6919,22 @@
     "requiredPropsCount": 4,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ClipboardCopyToggleProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "contentId",
+      "id",
+      "onClick",
+      "textId"
+    ],
+    "requiredPropsCount": 4,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "ClipboardCopyExpanded",
@@ -3607,7 +6944,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ClipboardCopyExpandedProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "ClipboardCopyButton",
@@ -3622,10 +6969,35 @@
     "requiredPropsCount": 4,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "ClipboardCopyButtonProps",
+    "description": "",
+    "propsCount": 13,
+    "requiredProps": [
+      "children",
+      "id",
+      "onClick",
+      "textId"
+    ],
+    "requiredPropsCount": 4,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ClipboardCopyAction",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ClipboardCopyActionProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -3662,7 +7034,29 @@
     "isComplex": false
   },
   {
+    "name": "ClipboardCopyProps",
+    "description": "",
+    "propsCount": 21,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "CodeBlockCode",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "CodeBlockCodeProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -3682,6 +7076,16 @@
     "isComplex": false
   },
   {
+    "name": "CodeBlockActionProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "CodeBlock",
     "description": "",
     "propsCount": 3,
@@ -3692,7 +7096,29 @@
     "isComplex": false
   },
   {
+    "name": "CodeBlockProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Checkbox",
+    "description": "",
+    "propsCount": 18,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "CheckboxProps",
     "description": "",
     "propsCount": 18,
     "requiredProps": [
@@ -3726,6 +7152,16 @@
     "isComplex": false
   },
   {
+    "name": "ContentProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "CalendarMonth",
     "description": "The main calendar month component.",
     "propsCount": 18,
@@ -3736,6 +7172,16 @@
     "isComplex": true
   },
   {
+    "name": "CalendarMonthInlineProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "CalendarFormat",
     "description": "Additional properties that extend from and can be passed to the main component. These\nproperties allow customizing the calendar formatting and aria-labels.",
     "propsCount": 12,
@@ -3743,7 +7189,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "CalendarProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "Button",
@@ -3766,7 +7222,27 @@
     "isComplex": false
   },
   {
+    "name": "ButtonProps",
+    "description": "",
+    "propsCount": 27,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
     "name": "CardTitle",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "CardTitleProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -3786,7 +7262,27 @@
     "isComplex": false
   },
   {
+    "name": "CardActionsProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "CardHeaderMain",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "CardHeaderMainProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -3803,7 +7299,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "CardHeaderActionsObject",
@@ -3825,10 +7321,30 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "CardHeaderProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
   },
   {
     "name": "CardFooter",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "CardFooterProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -3848,7 +7364,27 @@
     "isComplex": false
   },
   {
+    "name": "CardExpandableContentProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "CardBody",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "CardBodyProps",
     "description": "",
     "propsCount": 4,
     "requiredProps": [],
@@ -3878,7 +7414,47 @@
     "isComplex": true
   },
   {
+    "name": "CardProps",
+    "description": "",
+    "propsCount": 17,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "CardContextProps",
+    "description": "",
+    "propsCount": 7,
+    "requiredProps": [
+      "cardId",
+      "isClickable",
+      "isClicked",
+      "isDisabled",
+      "isExpanded",
+      "isSelectable",
+      "isSelected"
+    ],
+    "requiredPropsCount": 7,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Brand",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [
+      "alt"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "BrandProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [
@@ -3897,7 +7473,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "BreadcrumbItemRenderArgs",
@@ -3913,7 +7489,27 @@
     "isComplex": false
   },
   {
+    "name": "BreadcrumbItemProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
     "name": "BreadcrumbHeading",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "BreadcrumbHeadingProps",
     "description": "",
     "propsCount": 6,
     "requiredProps": [],
@@ -3933,7 +7529,27 @@
     "isComplex": false
   },
   {
+    "name": "BreadcrumbProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "Badge",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "BadgeProps",
     "description": "",
     "propsCount": 5,
     "requiredProps": [],
@@ -3950,6 +7566,16 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "BannerProps",
+    "description": "",
+    "propsCount": 6,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
     "isComplex": false
   },
   {
@@ -4005,7 +7631,29 @@
     "isComplex": false
   },
   {
+    "name": "BackgroundImageProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "src"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "Backdrop",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "BackdropProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -4027,9 +7675,31 @@
     "isComplex": false
   },
   {
+    "name": "AvatarProps",
+    "description": "",
+    "propsCount": 5,
+    "requiredProps": [
+      "alt"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "BackToTop",
     "description": "",
     "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "BackToTopProps",
+    "description": "",
+    "propsCount": 5,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -4047,7 +7717,29 @@
     "isComplex": true
   },
   {
+    "name": "AlertToggleExpandButtonProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
     "name": "AlertIcon",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "variant"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
+    "name": "AlertIconProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [
@@ -4066,7 +7758,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "AlertGroupContext",
@@ -4076,7 +7768,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "AlertGroup",
@@ -4086,7 +7778,17 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "AlertGroupProps",
+    "description": "",
+    "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "AlertGroupState",
@@ -4111,6 +7813,16 @@
     "isComplex": true
   },
   {
+    "name": "AlertActionLinkProps",
+    "description": "Renders buttons styled as links beneath the alert title and description when this sub-component\nis passed into the alert's actionLinks property.",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "AlertActionCloseButton",
     "description": "Renders a close button for a dismissable alert when this sub-component is passed into\nthe alert's actionClose property.",
     "propsCount": 28,
@@ -4121,9 +7833,31 @@
     "isComplex": true
   },
   {
+    "name": "AlertActionCloseButtonProps",
+    "description": "Renders a close button for a dismissable alert when this sub-component is passed into\nthe alert's actionClose property.",
+    "propsCount": 4,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": true
+  },
+  {
     "name": "Alert",
     "description": "The main alert component.",
     "propsCount": 24,
+    "requiredProps": [
+      "title"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
+  },
+  {
+    "name": "AlertProps",
+    "description": "The main alert component.",
+    "propsCount": 22,
     "requiredProps": [
       "title"
     ],
@@ -4145,7 +7879,29 @@
     "isComplex": false
   },
   {
+    "name": "AccordionToggleProps",
+    "description": "",
+    "propsCount": 4,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "AccordionItem",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "AccordionItemProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -4165,9 +7921,29 @@
     "isComplex": false
   },
   {
+    "name": "AccordionExpandableContentBodyProps",
+    "description": "",
+    "propsCount": 1,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "AccordionContent",
     "description": "",
     "propsCount": 9,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "AccordionContentProps",
+    "description": "",
+    "propsCount": 8,
     "requiredProps": [],
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
@@ -4185,7 +7961,29 @@
     "isComplex": false
   },
   {
+    "name": "AccordionProps",
+    "description": "",
+    "propsCount": 8,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": false
+  },
+  {
     "name": "AboutModalBoxHeader",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "id"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "AboutModalBoxHeaderProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [
@@ -4210,6 +8008,19 @@
     "isComplex": false
   },
   {
+    "name": "AboutModalBoxContentProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [
+      "children",
+      "trademark"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "AboutModalBoxCloseButton",
     "description": "",
     "propsCount": 2,
@@ -4217,10 +8028,33 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "AboutModalBoxCloseButtonProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "AboutModalBoxBrand",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "alt",
+      "src"
+    ],
+    "requiredPropsCount": 2,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "AboutModalBoxBrandProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [
@@ -4245,6 +8079,18 @@
     "isComplex": false
   },
   {
+    "name": "AboutModalBoxProps",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [
+      "children"
+    ],
+    "requiredPropsCount": 1,
+    "hasRequiredProps": true,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "AboutModal",
     "description": "",
     "propsCount": 14,
@@ -4256,10 +8102,34 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
+  },
+  {
+    "name": "AboutModalProps",
+    "description": "",
+    "propsCount": 14,
+    "requiredProps": [
+      "brandImageAlt",
+      "brandImageSrc",
+      "children"
+    ],
+    "requiredPropsCount": 3,
+    "hasRequiredProps": true,
+    "hasVariants": true,
+    "isComplex": true
   },
   {
     "name": "ActionListItem",
+    "description": "",
+    "propsCount": 2,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ActionListItemProps",
     "description": "",
     "propsCount": 2,
     "requiredProps": [],
@@ -4279,7 +8149,27 @@
     "isComplex": false
   },
   {
+    "name": "ActionListGroupProps",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
     "name": "ActionList",
+    "description": "",
+    "propsCount": 3,
+    "requiredProps": [],
+    "requiredPropsCount": 0,
+    "hasRequiredProps": false,
+    "hasVariants": false,
+    "isComplex": false
+  },
+  {
+    "name": "ActionListProps",
     "description": "",
     "propsCount": 3,
     "requiredProps": [],
@@ -4436,7 +8326,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "ModalBoxCloseButtonProps-deprecated",
@@ -4446,7 +8336,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "ModalBoxBody-deprecated",
@@ -4543,7 +8433,7 @@
     "requiredPropsCount": 5,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardToggleProps-deprecated",
@@ -4560,7 +8450,7 @@
     "requiredPropsCount": 6,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardNavItem-deprecated",
@@ -4572,7 +8462,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardNavItemProps-deprecated",
@@ -4584,7 +8474,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardNav-deprecated",
@@ -4616,7 +8506,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardHeaderProps-deprecated",
@@ -4628,7 +8518,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardFooterInternal-deprecated",
@@ -4706,7 +8596,7 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardBody-deprecated",
@@ -4720,7 +8610,7 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardBodyProps-deprecated",
@@ -4735,7 +8625,7 @@
     "requiredPropsCount": 4,
     "hasRequiredProps": true,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "Wizard-deprecated",
@@ -4759,7 +8649,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "WizardProps-deprecated",
@@ -4807,7 +8697,7 @@
     "requiredPropsCount": 2,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorTreeItemProps-deprecated",
@@ -4820,7 +8710,7 @@
     "requiredPropsCount": 2,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorTree-deprecated",
@@ -4832,7 +8722,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorTreeItemData-deprecated",
@@ -4846,7 +8736,7 @@
     "requiredPropsCount": 3,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorTreeProps-deprecated",
@@ -4858,7 +8748,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorPane-deprecated",
@@ -4868,7 +8758,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorPaneProps-deprecated",
@@ -4890,7 +8780,7 @@
     "requiredPropsCount": 1,
     "hasRequiredProps": true,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorListItemProps-deprecated",
@@ -4900,7 +8790,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelectorList-deprecated",
@@ -4940,7 +8830,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DualListSelector-deprecated",
@@ -5047,7 +8937,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "DraggableItemPosition-deprecated",
@@ -5070,7 +8960,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": false,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "ChipGroup-deprecated",
@@ -5080,7 +8970,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "ChipGroupProps-deprecated",
@@ -5090,7 +8980,7 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   },
   {
     "name": "Chip-deprecated",
@@ -5110,6 +9000,6 @@
     "requiredPropsCount": 0,
     "hasRequiredProps": false,
     "hasVariants": true,
-    "isComplex": false
+    "isComplex": true
   }
 ]

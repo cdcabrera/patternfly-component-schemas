@@ -8,9 +8,11 @@
     "build": "npm run build:components && npm run build:mcp",
     "build:components": "node scripts/generate-schemas.js component-metadata.json",
     "build:mcp": "node scripts/generate-mcp-schemas.js",
+    "build:mcp:optimized": "node scripts/generate-optimized-mcp-schemas.js",
     "dev": "node scripts/generate-schemas.js --watch",
     "clean": "rm -rf components/*/ schemas/ index.mcp.js",
     "rebuild": "npm run clean && npm run build",
+    "rebuild:optimized": "npm run clean && npm run build:components && npm run build:mcp:optimized",
     "semantic-release": "semantic-release"
   },
   "keywords": [

@@ -1,26 +1,56 @@
-// PatternFly Component Schemas - MCP Optimized
-// Generated on: 2025-10-08T01:18:44.021Z
+// PatternFly Component Schemas - Optimized MCP Version
+// Generated on: 2025-10-08T03:15:43.409Z
 
-// Load schemas using import attributes (clean, modern syntax)
-const { default: schemas } = await import('./schemas/index.json', { with: { type: 'json' } });
-const { default: metadata } = await import('./schemas/metadata.json', { with: { type: 'json' } });
+// Load lightweight pointer file and metadata
+const { default: index } = await import('./schemas/index.json', { with: { type: 'json' } });
 const { default: components } = await import('./schemas/components.json', { with: { type: 'json' } });
+const { default: metadata } = await import('./schemas/metadata.json', { with: { type: 'json' } });
 
-// Export schemas
-export { schemas, metadata, components };
-export const componentNames = Object.keys(schemas);
-export const componentCount = componentNames.length;
+// Cache for loaded schemas
+const schemaCache = new Map();
+
+// Export lightweight data
+export { index, components, metadata };
+export const componentNames = Object.keys(index.components);
+export const componentCount = index.componentCount;
 export const schemaVersion = metadata.version;
 
-// Component access
-export function getComponentSchema(name) {
-  if (!schemas[name]) {
+// Lazy-loaded schema access
+export async function getComponentSchema(name) {
+  if (!index.components[name]) {
     throw new Error(`Component '${name}' not found`);
   }
-  return schemas[name];
+  
+  // Check cache first
+  if (schemaCache.has(name)) {
+    return schemaCache.get(name);
+  }
+  
+  // Load individual schema file from components directory
+  const componentInfo = index.components[name];
+  const schema = await import(`./${componentInfo.schemaFile}`, { with: { type: 'json' } });
+  
+  // Cache for future use
+  schemaCache.set(name, schema.default);
+  return schema.default;
 }
 
-// Search and filter
+// Fast operations using pointer file
+export function getComponentNames(filter = 'all') {
+  const allComponents = Object.keys(index.components);
+  
+  switch (filter) {
+    case 'complex':
+      return allComponents.filter(name => index.components[name].isComplex);
+    case 'withRequiredProps':
+      return allComponents.filter(name => index.components[name].hasRequiredProps);
+    case 'simple':
+      return allComponents.filter(name => !index.components[name].isComplex);
+    default:
+      return allComponents;
+  }
+}
+
 export function searchComponents(query) {
   const lowerQuery = query.toLowerCase();
   return components.filter(c => 
@@ -29,25 +59,20 @@ export function searchComponents(query) {
   );
 }
 
-export function getComponentsWithRequiredProps() {
-  return components.filter(c => c.hasRequiredProps);
-}
-
-export function getComplexComponents() {
-  return components.filter(c => c.isComplex);
-}
-
-// Statistics
 export function getComponentStats() {
-  const totalProps = components.reduce((sum, c) => sum + c.propsCount, 0);
+  const totalProps = Object.values(index.components)
+    .reduce((sum, comp) => sum + comp.propsCount, 0);
+    
   return {
     totalComponents: componentCount,
     totalProps,
     averagePropsPerComponent: Math.round(totalProps / componentCount),
-    componentsWithRequiredProps: components.filter(c => c.hasRequiredProps).length,
-    complexComponents: components.filter(c => c.isComplex).length
+    componentsWithRequiredProps: Object.values(index.components)
+      .filter(comp => comp.hasRequiredProps).length,
+    complexComponents: Object.values(index.components)
+      .filter(comp => comp.isComplex).length
   };
 }
 
 // Default export
-export default schemas;
+export default index;

@@ -165,6 +165,8 @@ function generateMCPSchemas(inputFile) {
   const mcpCode = `// PatternFly Component Schemas - MCP Optimized
 // Generated on: ${new Date().toISOString()}
 
+import { distance } from 'fastest-levenshtein';
+
 // Load metadata
 const { default: index } = await import('./schemas/index.json', { with: { type: 'json' } });
 
@@ -210,12 +212,77 @@ export function getComponentNames(filter = 'all') {
   }
 }
 
-export function searchComponents(query) {
-  const lowerQuery = query.toLowerCase();
-  return Object.values(index.components).filter(c =>
-    c.name.toLowerCase().includes(lowerQuery) ||
-    c.description.toLowerCase().includes(lowerQuery)
-  );
+export function searchComponents(query, options = {}) {
+  const {
+    maxDistance = 3,        // Maximum edit distance for fuzzy matching
+    maxResults = 10,        // Maximum number of results to return
+    includeExact = true,    // Include exact matches
+    includePartial = true,  // Include partial matches
+    includeFuzzy = true     // Include fuzzy matches
+  } = options;
+  
+  const lowerQuery = query.toLowerCase().trim();
+  const results = [];
+  
+  // Get all component names for fuzzy matching
+  const componentNames = Object.keys(index.components);
+  
+  Object.values(index.components).forEach(component => {
+    const componentName = component.name;
+    const lowerComponentName = componentName.toLowerCase();
+    const lowerDescription = component.description.toLowerCase();
+    
+    let matchType = null;
+    let score = 0;
+    
+    // 1. Exact match (highest priority)
+    if (includeExact && lowerComponentName === lowerQuery) {
+      matchType = 'exact';
+      score = 100;
+    }
+    // 2. Starts with query (high priority)
+    else if (includePartial && lowerComponentName.startsWith(lowerQuery)) {
+      matchType = 'starts-with';
+      score = 90;
+    }
+    // 3. Contains query (medium priority)
+    else if (includePartial && (lowerComponentName.includes(lowerQuery) || lowerDescription.includes(lowerQuery))) {
+      matchType = 'contains';
+      score = 80;
+    }
+    // 4. Fuzzy match using Levenshtein distance
+    else if (includeFuzzy) {
+      const editDistance = distance(lowerQuery, lowerComponentName);
+      const maxLength = Math.max(lowerQuery.length, lowerComponentName.length);
+      const similarity = 1 - (editDistance / maxLength);
+      
+      if (editDistance <= maxDistance && similarity > 0.3) {
+        matchType = 'fuzzy';
+        score = Math.round(similarity * 70); // Fuzzy matches get 0-70 points
+      }
+    }
+    
+    // Add to results if we found a match
+    if (matchType) {
+      results.push({
+        ...component,
+        matchType,
+        score,
+        editDistance: matchType === 'fuzzy' ? distance(lowerQuery, lowerComponentName) : 0
+      });
+    }
+  });
+  
+  // Sort by score (highest first), then by name
+  results.sort((a, b) => {
+    if (a.score !== b.score) {
+      return b.score - a.score;
+    }
+    return a.name.localeCompare(b.name);
+  });
+  
+  // Return top results
+  return results.slice(0, maxResults);
 }
 
 export function getComponentsWithRequiredProps() {

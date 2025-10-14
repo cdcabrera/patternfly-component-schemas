@@ -43,7 +43,7 @@ This package is specifically designed for AI-assisted development tools and Mode
 - **Assist with component selection** based on requirements
 
 ### MCP Server Integration
-#### Component Integration
+#### Individual Component Imports (Tree-Shakeable)
 ```javascript
 // MCP servers can load and query component schemas
 import { componentNames, getComponentSchema } from '@patternfly/patternfly-component-schemas';

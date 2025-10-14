@@ -1,5 +1,5 @@
-// PatternFly Component Schemas - MCP Optimized
-// Generated on: 2025-10-08T07:24:29.279Z
+// PatternFly Component Schemas - JSON Optimized
+// Generated on: 2025-10-14T12:27:01.682Z
 
 // Load metadata
 const { default: index } = await import('./schemas/index.json', { with: { type: 'json' } });
@@ -27,7 +27,7 @@ export async function getComponentSchema(name) {
   if (!index.components[name]) {
     throw new Error(`Component '${name}' not found`);
   }
-  
+
   const schemas = await getAllSchemas();
   return schemas[name];
 }

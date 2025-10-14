@@ -79,8 +79,8 @@ function convertMetadataToJsonSchema(metadata) {
   };
 }
 
-// Generate lightweight MCP schemas
-function generateMCPSchemas(inputFile) {
+// Generate lightweight JSON schemas
+function generateJsonSchemas(inputFile) {
   console.log('📖 Reading metadata file...');
 
   if (!existsSync(inputFile)) {
@@ -161,8 +161,8 @@ function generateMCPSchemas(inputFile) {
 
   console.log(`\n🎉 Successfully converted ${convertedCount} components!`);
 
-  // Create index.mcp.js
-  const mcpCode = `// PatternFly Component Schemas - MCP Optimized
+  // Create index.json.js
+  const jsonCode = `// PatternFly Component Schemas - JSON Optimized
 // Generated on: ${new Date().toISOString()}
 
 // Load metadata
@@ -191,7 +191,7 @@ export async function getComponentSchema(name) {
   if (!index.components[name]) {
     throw new Error(\`Component '\${name}' not found\`);
   }
-  
+
   const schemas = await getAllSchemas();
   return schemas[name];
 }
@@ -240,10 +240,10 @@ export function getComponentStats() {
 export default index;
 `;
 
-  const mcpPath = join(projectRoot, 'index.mcp.js');
-  writeFileSync(mcpPath, mcpCode);
+  const jsonPath = join(projectRoot, 'index.json.js');
+  writeFileSync(jsonPath, jsonCode);
 }
 
 // Main execution
 const inputFile = process.argv[2];
-generateMCPSchemas(inputFile);
+generateJsonSchemas(inputFile);

@@ -42,42 +42,110 @@ This package is specifically designed for AI-assisted development tools and Mode
 - **Generate documentation** and examples
 - **Assist with component selection** based on requirements
 
-### MCP Server Integration
-#### Individual Component Imports (Tree-Shakeable)
+### Quick Start Examples
+
+#### Tree-Shakeable Interface
 ```javascript
-// MCP servers can load and query component schemas
 import { componentNames, getComponentSchema } from '@patternfly/patternfly-component-schemas';
 
 // Discover available components
-const components = componentNames; // 462 PatternFly components
+console.log(componentNames); // 462 components
 
-// Get detailed component information
+// Get a component schema
 const buttonSchema = await getComponentSchema('Button');
-// Returns: { schema, componentName, propsCount, requiredProps }
 ```
 
-#### JSON-Optimized Integration
+#### JSON-Optimized Interface
 ```javascript
-// JSON-optimized interface with lazy loading:
-// - Single import of lightweight metadata for fast discovery of all components
-// - Bulk schema access lazy loaded on first query
-// - Fast subsequent queries after initial load
+import { componentNames, searchComponents } from '@patternfly/patternfly-component-schemas/json';
 
-import { componentNames, getComponentSchema } from '@patternfly/patternfly-component-schemas/json';
+// Discover available components
+console.log(componentNames); // 462 components
 
-// Discover all available components (no full schemas loaded yet)
-const components = componentNames; // 462 PatternFly components
-
-// Get detailed component information (lazy loads full schemas on first call)
-const buttonSchema = await getComponentSchema('Button');
-// Returns JSON Schema with properties, required props, etc.
+// Search for components
+const modals = searchComponents('modal');
 ```
 
-### AI Assistant Examples
+### AI Assistant Use Cases
 - **"What props does the Button component accept?"** → AI reads Button schema
 - **"Generate a PatternFly Alert component"** → AI uses Alert schema for validation
 - **"Show me all navigation components"** → AI filters components by name/description
 - **"Create a form with proper PatternFly components"** → AI selects appropriate form components
+
+## 📚 API Reference
+
+### Tree-Shakeable Interface
+
+**Import**: `@patternfly/patternfly-component-schemas`
+
+| Function | Type | Description |
+|----------|------|-------------|
+| `componentNames` | `string[]` | Array of all 462 component names |
+| `getComponentSchema(name)` | `(name: string) => Promise<Schema>` | Lazy loads and returns schema for a specific component |
+| `getAllSchemas()` | `() => Promise<Record<string, Schema>>` | Loads all 462 component schemas at once |
+
+**Examples**:
+```javascript
+import { componentNames, getComponentSchema, getAllSchemas } from '@patternfly/patternfly-component-schemas';
+
+// Get component names
+const names = componentNames;
+// Returns: ['Button', 'Alert', 'Modal', ...]
+
+// Get single component schema
+const buttonSchema = await getComponentSchema('Button');
+// Returns: { schema: {...}, componentName: 'Button', propsCount: 27, requiredProps: [...] }
+
+// Get all schemas at once
+const allSchemas = await getAllSchemas();
+// Returns: { Button: {...}, Alert: {...}, ... } (all 462 components)
+```
+
+---
+
+### JSON-Optimized Interface
+
+**Import**: `@patternfly/patternfly-component-schemas/json`
+
+| Function | Type | Description |
+|----------|------|-------------|
+| `componentNames` | `string[]` | Array of all 462 component names (preloaded metadata) |
+| `getComponentSchema(name)` | `(name: string) => Schema` | Returns schema for a specific component (from preloaded data) |
+| `searchComponents(query)` | `(query: string) => Schema[]` | Search components by name or description |
+| `getComponentStats()` | `() => Stats` | Get package statistics (total components, props, etc.) |
+| `getComponentsWithRequiredProps()` | `() => Schema[]` | Filter components that have required props |
+| `getComplexComponents(threshold?)` | `(threshold?: number) => Schema[]` | Filter components with many props (default: 20+) |
+
+**Examples**:
+```javascript
+import { 
+  componentNames, 
+  getComponentSchema, 
+  searchComponents, 
+  getComponentStats 
+} from '@patternfly/patternfly-component-schemas/json';
+
+// Get component names (lightweight, instant)
+const names = componentNames;
+// Returns: ['Button', 'Alert', 'Modal', ...]
+
+// Get single component schema
+const buttonSchema = getComponentSchema('Button');
+// Returns: { schema: {...}, componentName: 'Button', propsCount: 27, requiredProps: [...] }
+
+// Search for components
+const modals = searchComponents('modal');
+// Returns: [{ componentName: 'Modal', ... }, { componentName: 'AboutModal', ... }]
+
+// Get statistics
+const stats = getComponentStats();
+// Returns: { totalComponents: 462, totalProps: 12845, avgPropsPerComponent: 27.8, ... }
+```
+
+**Loading Behavior**:
+- Metadata (component names, counts): Loaded immediately (~132 KB)
+- Full schemas: Lazy loaded on first `getComponentSchema()` call (~731 KB)
+- Subsequent calls: Retrieved from memory (instant)
 
 ## 📦 Package Architecture
 

@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { join, dirname, resolve } from 'path';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const projectRoot = join(__dirname, '..');
 
 // Simple converter from your metadata format to JSON Schema
-function convertMetadataToJsonSchema(metadata) {
+export function convertMetadataToJsonSchema(metadata) {
   const properties = {};
   const required = [];
 
@@ -221,5 +221,9 @@ if (process.argv.length < 3) {
   process.exit(1);
 }
 
-const inputFile = process.argv[2];
-convertAllComponents(inputFile);
+// Only run CLI logic when executed directly (not when imported)
+// Check if this file is being run directly by comparing import.meta.url with the resolved process.argv[1]
+if (import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  const inputFile = process.argv[2];
+  convertAllComponents(inputFile);
+}

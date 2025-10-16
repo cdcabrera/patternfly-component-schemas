@@ -1,83 +1,15 @@
 #!/usr/bin/env node
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { join, dirname, resolve } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import os from 'node:os';
+import { convertMetadataToJsonSchema } from './generate-schemas.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const projectRoot = join(__dirname, '..');
 const schemasDir = join(projectRoot, 'schemas');
-
-// Simple converter from metadata format to JSON Schema
-function convertMetadataToJsonSchema(metadata) {
-  const properties = {};
-  const required = [];
-
-  (metadata.props || []).forEach((prop) => {
-    const propSchema = {
-      description: prop.description || ''
-    };
-
-    // Convert type string to JSON Schema type
-    if (prop.type === 'boolean') {
-      propSchema.type = 'boolean';
-    } else if (prop.type === 'string') {
-      propSchema.type = 'string';
-    } else if (prop.type === 'number') {
-      propSchema.type = 'number';
-    } else if (prop.type.includes('React.ReactNode')) {
-      // React nodes - can't really validate, but mark as any
-      propSchema.description += ' (React component or element)';
-    } else if (prop.type.includes(' | ')) {
-      // Handle union types like 'primary' | 'secondary'
-      const enumValues = prop.type.match(/'([^']+)'/g)?.map((s) => s.slice(1, -1));
-      if (enumValues && enumValues.length > 0) {
-        propSchema.enum = enumValues;
-      } else {
-        // Complex union, just document the type
-        propSchema.description += ` (Type: ${prop.type})`;
-      }
-    } else if (prop.type.includes('[]')) {
-      propSchema.type = 'array';
-      propSchema.description += ` (Type: ${prop.type})`;
-    } else if (prop.type.includes('=>')) {
-      // Function type
-      propSchema.description += ` (Function: ${prop.type})`;
-    } else {
-      // Complex type, just document it
-      propSchema.description += ` (Type: ${prop.type})`;
-    }
-
-    // Add default value if present
-    if (prop.defaultValue !== undefined) {
-      try {
-        // Try to parse as JSON for proper type
-        propSchema.default = JSON.parse(prop.defaultValue);
-      } catch {
-        // If not valid JSON, use as string
-        propSchema.default = prop.defaultValue;
-      }
-    }
-
-    properties[prop.name] = propSchema;
-
-    if (prop.required) {
-      required.push(prop.name);
-    }
-  });
-
-  return {
-    $schema: 'https://json-schema.org/draft/2020-12/schema',
-    type: 'object',
-    title: `${metadata.name} Props`,
-    description: metadata.description || `Props for the ${metadata.name} component`,
-    properties,
-    ...(required.length > 0 && { required }),
-    additionalProperties: false
-  };
-}
 
 // Generate lightweight JSON schemas
 function generateJsonSchemas(inputFile) {
@@ -244,6 +176,9 @@ export default index;
   writeFileSync(jsonPath, jsonCode);
 }
 
-// Main execution
-const inputFile = process.argv[2];
-generateJsonSchemas(inputFile);
+// Only run CLI logic when executed directly (not when imported)
+// Check if this file is being run directly by comparing import.meta.url with the resolved process.argv[1]
+if (import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  const inputFile = process.argv[2];
+  generateJsonSchemas(inputFile);
+}

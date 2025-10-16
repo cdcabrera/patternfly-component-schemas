@@ -88,45 +88,29 @@ This package provides two interfaces optimized for different use cases:
 #### 🌳 Individual Component Imports (Tree-Shakeable)
 **Import**: `@patternfly/patternfly-component-schemas`
 
-**Best for**:
-- Client-side applications
-- Build tools and bundlers
-- IDE integrations (autocomplete, validation)
-- Minimal bundle impact
-
 **Characteristics**:
-- Each component loaded individually (~8 KB per component)
-- Tree-shakeable (only import what you need)
 - Optimized for selective access
-- Perfect for production bundles
+- Each component loads individually
+- Tree-shakeable (only import what you need)
 
 #### 🚀 JSON-Optimized Interface
 **Import**: `@patternfly/patternfly-component-schemas/json`
 
-**Best for**:
-- MCP servers
-- AI agents and assistants
-- Server-side tools
-- Bulk schema operations
-
 **Characteristics**:
-- Lightweight metadata for fast discovery
-- Lazy-loaded full schemas on demand
-- Fast queries across all 462 components
 - Optimized for bulk access patterns
+- Lightweight metadata for fast discovery
+- Lazy-loaded (full schemas on demand)
 
 ### Quick Decision Guide
 
 **Use Tree-Shakeable if you**:
-- Need minimal bundle size
-- Access only specific components
-- Building client-side applications
+- Need minimal application bundle size
+- Are building client-side applications
 - Want per-component imports
 
 **Use JSON-Optimized if you**:
 - Need all component metadata quickly
-- Building server-side tools
-- Implementing MCP servers or AI agents
+- Are building server-side tools
 - Want fast discovery and bulk operations
 
 ## 🔧 Development

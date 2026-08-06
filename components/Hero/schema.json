@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "Hero Props",
+  "description": "The main Hero component that allows adjusting of its background images and gradients in different color modes (such as light and dark).",
+  "properties": {
+    "isGlass": {
+      "description": " (Type: No type info)",
+      "default": false
+    }
+  },
+  "additionalProperties": false
+}

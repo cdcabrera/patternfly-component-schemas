@@ -1,5 +1,5 @@
 // PatternFly Component Schemas - JSON Optimized
-// Generated on: 2025-10-14T12:27:01.682Z
+// Generated on: 2026-08-06T18:15:00.044Z
 
 // Load metadata
 const { default: index } = await import('./schemas/index.json', { with: { type: 'json' } });

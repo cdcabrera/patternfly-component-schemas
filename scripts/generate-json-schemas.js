@@ -258,7 +258,7 @@ for (let i = 0; i < args.length; i++) {
   } else if (arg === '--pf-version') {
     if (args[i + 1] && !args[i + 1].startsWith('-')) {
       pfVersion = args[i + 1];
-      i++;
+      i+=1;
     }
   } else if (!arg.startsWith('-')) {
     if (!inputFile) {

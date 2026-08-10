@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "pfVersion": "6.x.x",
-  "generated": "2026-08-10T16:06:36.625Z",
+  "pfVersion": "6.6.1",
+  "generated": "2026-08-10T16:16:41.224Z",
   "totalComponents": 479,
   "totalProps": 3748,
   "averagePropsPerComponent": 8,

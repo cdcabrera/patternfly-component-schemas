@@ -9,11 +9,12 @@ const __dirname = dirname(__filename);
 const projectRoot = join(__dirname, '..');
 
 // Create a hash signature from component props for duplicate detection
-function getPropsSignature(componentData) {
-  return (componentData.props || [])
+function getPropsSignature(componentName, componentData) {
+  const propsSig = (componentData.props || [])
     .map(p => `${p.name}:${p.type}`)
     .sort()
     .join('|');
+  return `${componentName}:${propsSig}`;
 }
 
 // Cache regexes for performance
@@ -280,7 +281,7 @@ function convertAllComponentsToZod(inputFile) {
   const { processedComponents, skippedCount } = Object.entries(metadata).reduce(
     (acc, [componentName, componentData]) => {
       // Generate signature for this component's props
-      const signature = getPropsSignature(componentData);
+      const signature = getPropsSignature(componentName, componentData);
       
       // Skip if empty (no props) or duplicate
       if (!signature || acc.seenSignatures.has(signature)) {

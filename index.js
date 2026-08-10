@@ -1,5 +1,5 @@
 // Auto-generated index file for PatternFly component schemas
-// Generated on: 2026-08-06T20:11:27.003Z
+// Generated on: 2026-08-10T16:06:36.523Z
 
 export { default as KeyboardHandler } from './components/KeyboardHandler/index.js';
 export { default as SampleRowData } from './components/SampleRowData/index.js';
